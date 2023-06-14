@@ -1,0 +1,89 @@
+<html>
+<head>
+  <title>Carrito</title>
+   <link rel="icon" href="imgAnthem/Anthem.jpg" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="Checkout.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<video autoplay muted loop id="myVideo">
+            <source src="Colores.mp4" type="video/mp4">
+            </video>
+<h2>Rellene con la información de pago</h2>
+<div class="fila">
+  <div class="columna-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="fila">
+          <div class="columna-50">
+            <h3>Dirección de Envio</h3>
+            <label for="PrimerNombre"><i class="fa fa-user"></i> Nombre completo</label>
+            <input type="text" id="PrimerNombre" name="PrimerNombre" placeholder="Nombre y Apellidos del comprador">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="lucas@ejemplo.com">
+            <label for="Dirección"><i class="fa fa-address-card-o"></i> Dirección</label>
+            <input type="text" id="adr" name="Dirección" placeholder="Calle de la Esperanza 23">
+            <label for="Ciudad"><i class="fa fa-institution"></i> Ciudad</label>
+            <input type="text" id="Ciudad" name="Ciudad" placeholder="Madrid">
+
+            <div class="fila">
+              <div class="columna-50">
+                <label for="Municipio">Municipio</label>
+                <input type="text" id="Municipio" name="Municipio" placeholder="Madrid">
+              </div>
+              <div class="columna-50">
+                <label for="postal">Código postal</label>
+                <input type="text" id="postal" name="postal" placeholder="28021">
+              </div>
+            </div>
+          </div>
+
+          <div class="columna-50">
+            <h3>Pago</h3>
+            <label for="fname">Tarjetas de crédito aceptadas</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="NombreTarjeta">Nombre propietario de la tarjeta</label>
+            <input type="text" id="NombreTarjeta" name="NombreTarjeta" placeholder="Nombre y Apellidos del comprador">
+            <label for="NumTarjeta">Número de la tarjeta de credito</label>
+            <input type="text" id="NumTarjeta" name="NumTarjeta" placeholder="1111-2222-3333-4444">
+            <label for="expmes">Mes de caducidad</label>
+            <input type="text" id="expmes" name="expmes" placeholder="Septiembre">
+            <div class="fila">
+              <div class="columna-50">
+                <label for="expAño">Año de caducidad</label>
+                <input type="text" id="expAño" name="expAño" placeholder="2021">
+              </div>
+              <div class="columna-50">
+                <label for="Secreto">Número secreto</label>
+                <input type="text" id="Secreto" name="Secreto" placeholder="Posicionado en la parte trasera de la tarjeta">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="DireccionInfo"> Dirección de envío igual a la de facturación
+        </label>
+        <input type="submit" value="Continuar al pago" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="columna-25">
+    <div class="container">
+      <h4>Cesta <span class="precio"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+      <p><a href="Productos.html">1984</a> <span class="precio">$19,99</span></p>
+      <p><a href="Productos.html">Fausto</a> <span class="precio">$16,91</span></p>
+      <p><a href="Productos.html">Los Vencidos</a> <span class="precio">$61,99</span></p>
+      <p><a href="Productos.html">Madame Bovary</a> <span class="precio">$13,99</span></p>
+      <hr>
+      <p>Total <span class="precio"><b>$112,88</b></span></p>
+    </div>
+  </div>
+</div>

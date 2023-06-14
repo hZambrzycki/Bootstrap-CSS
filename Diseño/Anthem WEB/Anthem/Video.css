@@ -1,0 +1,88 @@
+html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section {
+padding: 0;
+margin: 0;
+}
+
+article, aside, footer, header , main, nav, section {
+	display: block;
+}
+
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+	font-family: Helvetica,sans-serif;
+	font-size: 15px;
+	
+	background-size: 100% 200%;
+}
+.header {
+
+	text-align: right;
+	color: white;
+	padding: 20px 20px;
+	
+	float: center;
+  
+ 
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+section {
+	text-align: center;
+	float: center;
+	
+	color: white;
+	margin-top: 5px;
+	height: 500px;
+	width: 955px;
+
+	
+	
+}
+article {
+	float: center;
+	
+	margin-top: 5px;
+	padding: 10px 15px;
+	
+	height: auto;
+
+}
+
+main {
+	widows: 640px;
+	float: left;
+	margin-bottom: 10px;
+	
+	color: white;
+
+}
+div {
+	text-align: left;
+}
+
+#myVideo {
+     object-fit: cover;
+     width: 100vw;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: -1000;
+}
+#presentacion {
+	padding-top: 200px;
+	height: 500px;
+	width: 800px;
+	max-height: 500px;
+	max-width: 1000px;
+}
+h1 {
+	padding-right: 280px;
+}
+#poster {
+	opacity: 1;
+}

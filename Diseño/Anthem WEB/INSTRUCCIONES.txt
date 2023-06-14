@@ -1,0 +1,3 @@
+El archivo principal es "Web", a partir de este se ha creado el resto de la página web.
+
+

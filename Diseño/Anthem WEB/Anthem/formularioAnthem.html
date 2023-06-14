@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="shortcut icon" href="imgAnthem/Anthem.jpg" type="image/x-icon" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="AnthemFormulario.css">
+    <title>Crear cuenta de usuario</title>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+            <source src="Star.mp4" type="video/mp4">
+            </video>
+
+    <header>
+    <h3>Creacion de cuenta de usuario</h3>
+    </header>
+    <main>
+    <form name="formulario" method="post" action="envio.asp"
+    enctype="multipart/form-data">
+    <table>
+        <tr>
+<div class="naranja">
+</td></tr><tr><td><div class="label">
+    
+    <label for="nombre">Nombreº:</label>
+    
+</div></td>
+</td><td><div class="input">
+    <input type="text" name="nombre" id="nombre" size="15" maxlength="20" required="">
+    <input type="text" name="nombre" id="nombre" required="">
+</div>
+</div>
+</tr>
+<tr>
+    <td><div class="label">
+    <label for="contraseña">Contraseñaº:</label>
+
+</div>
+</td><td><div class="input">
+    <input type="password" name="contraseña" id="contraseña" required="" maxlength="10">
+    </div>
+</td>
+    </tr>
+<td><div class="label">
+    <label for="email">Emailº:</label>  
+</div>
+</td><td><div class="input">
+    <input type="email" name="email" id="email">
+</div>
+
+     <tr>
+        <td><div class="label">
+        <label for="sexo">Sexoº:</label>
+    </div>
+ </td><td><div class="input">
+        <input type="radio" name="masculino" id="sexo" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" name="femenino" id="sexo" value="femenino">
+        <label for="femenino">Femenino</label><br>
+       </div>
+
+  
+ 
+
+<tr><td colspan="2">
+  <div class="botones">
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Borrar" value="Borrar">
+    </main>
+</div>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

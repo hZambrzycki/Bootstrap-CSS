@@ -1,0 +1,17 @@
+Debido principalmente a que queria hacer muchas cosas y no sabia como, he buscado en diferentes fuentes para la realizacion de algunos apartados de la pagina.
+
+Estos son los siguientes:
+
+https://www.w3schools.com/howto/howto_css_product_card.asp
+
+https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+
+https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+
+https://www.w3schools.com/html/html5_video.asp
+
+https://www.w3schools.com/html/html5_audio.asp
+
+
+https://mappinggis.com/2012/05/como-insertar-un-mapa-de-google-maps-en-tu-web/
+

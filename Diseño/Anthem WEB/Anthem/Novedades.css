@@ -1,0 +1,65 @@
+article, aside, footer, header , main, nav, section {
+	display: block;
+}
+html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section {
+padding: 0;
+margin: 0;
+}
+.banner {
+    padding-top: 10px;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	margin-right: -85px;
+}
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	font-family: Helvetica,sans-serif;
+	font-size: 15px;
+
+
+}
+
+section {
+	
+	color: white;
+	margin-top: 10px;
+	padding: 5px;
+
+
+}
+article {
+	
+	color: white;
+	margin-top: 5px;
+	padding: 10px 15px;
+
+}
+
+main {
+	widows: 640px;
+	float: left;
+	margin-bottom: 10px;
+
+}
+footer {
+	
+	color: white;
+	margin-right: -85px;
+}
+iframe {
+	width: 1000px;
+	height: 450px;
+}
+#myVideo {
+     object-fit: cover;
+     width: 100vw;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: -1000;
+}

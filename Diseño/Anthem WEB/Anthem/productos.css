@@ -1,0 +1,189 @@
+article, aside, footer, header , main, nav, section {
+  display: block;
+}
+html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section {
+padding: 0;
+margin: 0;
+}
+#myVideo {
+     object-fit: cover;
+     width: 100vw;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: -1000;
+}
+.banner {
+  
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+body {
+
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: white;
+
+}
+
+.carta1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+}
+.carta2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top:20px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  float: right;
+}
+.carta3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top:20px;
+  margin-left: 40px;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  text-align: center;
+}
+.carta4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top:20px;
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  text-align: center;
+}
+.carta5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  text-align: center;
+}
+.carta6 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  float: right;
+  text-align: center;
+}
+.carta7 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  text-align: center;
+}
+.carta8 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top:20px;
+  margin-left: 40px;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  text-align: center;
+}
+
+.carta9 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  text-align: center;
+}
+.carta10 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top:20px;
+  font-family: "Times New Roman", Times, serif;
+  float: right;
+  text-align: center;
+}
+.carta11 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top:20px;
+  margin-left: 30px;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  text-align: center;
+}
+.carta12 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 200px;
+  margin-top:20px;
+  margin-left: 40px;
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  text-align: center;
+}
+.price {
+  color: white;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.checked {
+  color: orange;
+}
+h1 {
+  text-align: center;
+}
+.clear {
+  margin-top: 450px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 15px;
+
+}

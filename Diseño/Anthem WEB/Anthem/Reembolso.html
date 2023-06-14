@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="shortcut icon" href="imgAnthem/Anthem.jpg" type="image/x-icon" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Reembolso.css">
+	<title>Solicitud de reembolso</title>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+            <source src="N2D2.mp4" type="video/mp4">
+            </video>
+
+       <h3>Solicitud de Reembolso</h3>
+    <h3>Rellena el formulario para solicitar un reembolso</h3>
+    
+    <form name="formulario" method="post" action="envio.asp"
+    enctype="multipart/form-data">
+    <table>
+        <tr>
+<div class="form">
+</td></tr><tr><td><div class="label">
+    
+    <label for="nombre">Nombreº:</label>
+    
+</div></td>
+</td><td><div class="input">
+    <input type="text" name="nombre" id="nombre" size="15" maxlength="20" required="">
+    <input type="text" name="nombre" id="nombre" required="">
+</div>
+</div>
+</tr>
+<tr>
+    <td><div class="label">
+    <label for="contraseña">Contraseñaº:</label>
+
+</div>
+</td><td><div class="input">
+    <input type="password" name="contraseña" id="contraseña" required="" maxlength="10">
+    </div>
+</td>
+    </tr>
+<td><div class="label">
+    <label for="email">Emailº:</label>  
+</div>
+</td><td><div class="input">
+    <input type="email" name="email" id="email">
+</div>
+   </td></tr><tr><td><div class="label">
+    <label for="tipo">Tipo de incidenciaº:</label>
+</div>
+</td><td><div class="input">
+    <select name="tipo">
+        <option value="X" selected="X">El producto ha venido en mala calidad</option>
+        <option value="Y">No era lo que esperaba</option>
+        <option value="Z">Problema que no aparece aqui</option>
+</select>
+</div>
+</td></tr><tr><td><div class="label">
+        <label for="Tipo de reembolso">Tipo de reembolsoº:</label>
+    </div>
+</td><td><div class="input">
+        <input type="radio" name="metalico" id="rembolso" value="rembolso" checked>
+        <label for="metalico">Pago en metalico</label><br>
+        <input type="radio" name="tarjeta" id="rembolso" value="rembolso">
+        <label for="tarjeta">Pago en la cuenta corriente</label><br>
+   </div>
+ </td></tr><tr><td><div class="label">
+        <label for="Comentarios">Comentarios:</label>
+    </div>
+    </td><td><div class="input">
+        <textarea rows="10" cols="55" maxlength="20"></textarea>
+ </div>
+</td>
+</tr>
+<tr><td colspan="2">
+  <div class="botones">
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Borrar" value="Borrar">
+</div>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

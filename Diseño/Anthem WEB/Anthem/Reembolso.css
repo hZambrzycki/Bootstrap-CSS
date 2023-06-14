@@ -1,0 +1,51 @@
+table tr:nth-child(even) {
+           
+            color: white;
+
+        }
+        div.botones {
+            text-align: center;
+            padding: 2%;
+
+        }
+        h3 {
+            text-align: center;
+            color: white;
+        }
+        div.label {
+        text-align:right;
+        vertical-align: top;
+         font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+        
+        }
+        table {
+          width: 80%;
+          max-width: 600px;
+          margin-left: auto;
+          margin-right: auto;
+          border-collapse: collapse;
+         
+          color: white;
+        }
+        div.input {
+            text-align: left;
+            padding: 1%;
+        }
+        form {
+           font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+        }
+
+        #myVideo {
+     object-fit: cover;
+     width: 100vw;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: -1000;
+}
+body {
+    margin-top: 150px;
+}
