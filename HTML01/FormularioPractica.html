@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Encuesta de satisfacción Servicio de Farmacia</title>
+</head>
+<body>
+Basico	
+<fieldset>
+	<table style="width:90%" border= "1px solid"  align="center">
+	<tr>
+	<td>Profesionº</td>
+    <td> <input type="radio" name="sexo" value="hombre" id="hombre">
+    <label for="hombre">Facultativo</label>
+    <input type="radio" name="sexo" value="mujer" id="mujer">
+    <label for="mujer">De enfermeria</label>
+</td>
+</tr>
+   	<tr>
+   	<td>Tipo de servicio</td>
+   <td><input type="checkbox" name="servicio" value="1" id="planta">
+   <label for="servicio">Stock en Planta</label>
+   <input type="checkbox" name="servicio" value="1" id="planta">
+   <label for="servicio">Unidosis</label>
+</td>
+</tr>
+   
+   <tr>
+   
+<td>Seleccione el aspecto que funciona mejor"</td>
+<td><form id="doc" action="doc.php" method="get" enctype="text/plain">
+	<label for="tipo_doc">De organizacion</label>
+	<select id="tipo_doc" name="tipo_doc">
+		<optgroup label="Tipo Documento">
+			<option value="Seleccionar">De organizacion</option>
+			<option>El horario de atencion</option>
+			<option>El horario de dispensacion</option>
+        </select>
+    </optgroup>
+    <form id="doc" action="doc.php" method="get" enctype="text/plain">
+	<label for="tipo_doc">Con los farmaceuticos</label>
+	<select id="tipo_doc" name="tipo_doc">
+		<optgroup label="Tipo Documento">
+			<option value="Seleccionar">Disponibilidad</option>
+			<option>Amabilidad</option></td>
+        </select>
+    </optgroup>
+</tr>
+</table>
+
+</body>
+</html>

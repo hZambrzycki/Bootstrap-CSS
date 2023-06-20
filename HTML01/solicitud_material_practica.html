@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<head>
+	<title>Solicitud de Material o Servicios Informaticos</title>
+</head>
+<body>
+     <h3 style="text-align: center;">Solicitud de Material o Servicios Informáticos</h3>
+Datos del solicitante
+     <fieldset>
+Correo electronico
+     	<input type="text" name="correo" size="100"> Departamento
+        <input type="radio" name="direccion" value="1">Dirección
+        <input type="radio" name="compras" value="2">Compras
+        <input type="radio" name="ventas" value="3">Ventas
+        <input type="radio" name="administracion" value="4">Administración
+   </fieldset>
+<br>
+Datos de  la solicitud
+   <fieldset>
+Tipo de Solicitud   	
+    <input type="checkbox" name="material">Material
+    <input type="checkbox" name="servicio">Servicio
+    <br>
+Detalle corto de la solicitud
+    <select name="Material Informatico">Material Informatico
+    <option value="Material Informatico" selected> Material Informatico</option>
+    <option value="Ordenadores">Ordenadores</option>
+    <option value="Impresoras">Impresoras</option>
+    <option value="Monitores">Monitores</option>
+</select>
+<br>
+Descripcion de la solicitud   
+    <textarea name="descripcion" rows="10" cols="75"></textarea>
+<br>
+
+<form action="encuesta.asp" method="post" enctype="text/plain"></form>Informacion adicional<button name="examinar" type="send" value="examinar">examinar</button>
+ No se ha seleccionado ningun archivo.
+<br>
+</form>
+<button name="enviar" type="submit" value="mandar">Enviar</button>
+<button name="borrar" type="reset" value="borrar">Borrar</button>   
+<br>
+</fieldset>
+</body>
+</html>
