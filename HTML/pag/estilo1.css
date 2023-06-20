@@ -1,0 +1,25 @@
+.izq {
+	float: left;
+	width: 15%;
+	height: 20%;
+}
+.der {
+	float: right;
+	width: 15%;
+	height: 20%;
+}
+.izq1 {
+	float: left;
+	width: 15%;
+	height: 20%;
+}
+.fin1 {
+	clear: left;
+}
+.fin2 {
+	clear: right;
+}
+* {
+	background-color: black;
+	color: white;
+}
