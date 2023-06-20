@@ -1,0 +1,147 @@
+
+
+a:link, a:visited {
+  background-color: black;
+  color: green;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ 
+}
+.ejemplo1:link {
+	text-decoration: none;
+}
+.ejemplo1:visited {
+	text-decoration: none;
+}
+.ejemplo1:hover {
+	text-decoration: underline;
+}
+.ejemplo1:active {
+	text-decoration: underline;
+}
+a:hover, a:active {
+  background-color: white;
+}
+
+
+.dropbtn {
+  background-color: black;
+  color: green;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: green;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: green;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #green}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #green;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+	border-right: 1px  solid white;
+}
+
+li a {
+display: inline-block;
+color: lightgreen;
+text-align: center;
+padding: 12px 14px;
+text-decoration: underline;
+}
+
+
+.active {
+	background-color: #4CAF50;
+}
+.izq {
+	float: left;
+	width: 15%;
+	height: 20%;
+}
+.der {
+	float: right;
+	width: 15%;
+	height: 20%;
+}
+.izq1 {
+	float: left;
+	width: 15%;
+	height: 20%;
+}
+.fin1 {
+	clear: left;
+}
+.fin2 {
+	clear: right;
+}
+.fin3 {
+	clear: left;
+}
+* {
+	background-color: black;
+	color: white;
+	
+}
+div.static {
+  position: static;
+  border: 3px solid green;
+}
+div.static2 {
+	 position: static;
+  border: 3px solid green;
+  z-index: 2;
+}
+.overflow {
+	background-color: black;
+ width: 200px;
+ height: 50px;
+ border: 1px dotted black;
+ overflow-x: hidden;
+ overflow-y: scroll;
+}
+.overflowx {
+	background-color: black;
+ width: 150px;
+ height: 50px;
+ border: 1px dotted black;
+ overflow-x: auto;
+ overflow-y: hidden;
+}
+
+

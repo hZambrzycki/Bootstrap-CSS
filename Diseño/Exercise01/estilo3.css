@@ -1,0 +1,52 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+	border-right: 1px white;
+}
+
+li a {
+display: block;
+color: lightgreen;
+text-align: center;
+padding: 12px 14px;
+text-decoration: none;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+.izq {
+	float: left;
+	width: 15%;
+	height: 20%;
+}
+.der {
+	float: right;
+	width: 15%;
+	height: 20%;
+}
+.izq1 {
+	float: left;
+	width: 15%;
+	height: 20%;
+}
+.fin1 {
+	clear: left;
+}
+.fin2 {
+	clear: right;
+}
+.fin3 {
+	clear: left;
+}
+* {
+	background-color: black;
+	color: white;
+	text-align: right;
+}

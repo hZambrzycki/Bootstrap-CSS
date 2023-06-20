@@ -1,0 +1,27 @@
+.capa1 {
+	height: 100px;
+	width: 1000px;
+	background-image: url(https://sitechecker.pro/wp-content/uploads/2017/12/URL-meaning.png);
+	background-size: 150px;
+    background-repeat: repeat-x;
+    float: left;
+    text-align: center;
+}
+.capa2 {
+	height: 120px;
+	width: 110px;
+	background-image: url(https://www.40defiebre.com/wp-content/uploads/2015/03/acortador-url.png);
+	background-size: 150px;
+    background-repeat: repeat-y;
+    float: right;
+}
+.capa3 {
+	height: 115px;
+	width: 135px;
+	background-color: lightgreen;
+	float: left;
+}
+*{
+	background-color: black;
+	color: white;
+}
