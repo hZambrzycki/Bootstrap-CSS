@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>FORMULARIO DE SOLICITUD DE EXAMEN PROFESIONAL</title>
+</head>
+<style>
+     h1 {
+     	background-color: red;
+      color: white
+    
+     }
+</style>
+<body>
+      <h1>FORMULARIO DE SOLICITUD DE EXAMEN PROFESIONAL</h1>
+      <img src="img/img.jpg" width="300px" height="200px">
+</body>
+Datos personales
+<br>
+<fieldset>
+<form id="doc" action="doc.php" method="get" enctype="text/plain">
+	<label for="tipo_doc">Tipo Documento</label>
+	<select id="tipo_doc" name="tipo_doc">
+		<optgroup label="Tipo Documento">
+			<option value="Seleccionar">Selecciona...</option>
+        </select>
+    </optgroup>
+<br>
+    <label for="numero">Número</label>
+    <input type="text" name="numero" value="" id="numero" size="100">
+<br>
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" value="" id="nombre" size="100">
+<br>
+    <label for="apellido">Apellido</label>
+    <input type="text" name="apellido" value="" id="apellido" size="100">
+<br>
+       Sexo
+    <input type="radio" name="sexo" value="hombre" id="hombre">
+    <label for="hombre">Hombre</label>
+    <input type="radio" name="sexo" value="mujer" id="mujer">
+    <label for="mujer">Mujer</label>
+</form>
+</fieldset>
+<br>
+<fieldset>
+Datos de Contacto
+<br>
+<form id="Contacto" action="contacto.php" method="get" enctype="text/plain">
+<br>
+    <label for="correo">Correo electronico</label>
+    <input type="text" name="correo" value="" id="correo" size="95" >
+<br>
+   <label for="telefono">Teléfono fijo</label>
+    <input type="text" name="telefono" value="" id="telefono" size="100">
+</form>
+</fieldset>
+<br>
+<fieldset>
+Datos del Examén
+    <form id="Datos_Examen" action="datosexamen.php" method="get" enctype="text/plain">
+<br>
+¿En que ciudades te gustaria realizar el examen?
+   <input type="checkbox" name="ciudad" value="madrid" id="madrid">
+   <label for="ciudad">Madrid</label>
+   <input type="checkbox" name="ciudad" value="barcelona" id="barcelona">
+   <label for="ciudad">Barcelona</label>
+   <input type="checkbox" name="ciudad" value="la_coruña" id="la_coruña">
+   <label for="ciudad">La Coruña</label>
+   <input type="checkbox" name="ciudad" value="sevilla" id="sevilla">
+   <label for="ciudad">Sevilla</label>
+<br>
+<label for="Examenes">Selecciona los examenes que vas a realizar</label>
+	<select id="****PROGRAMACION****" name="****PROGRAMACION****">
+		<optgroup label="****PROGRAMACION****">
+			<option value="C">C</option>
+			<option value="C++">C++</option>
+			<option value="Java">Java</option>
+        </select>
+    </optgroup>
+<br>
+<label for="fecha">Fecha Solicitud</label>
+<input type="text" name="fecha" value="" id="fecha" size="100">
+<br>
+Informacion adicional:
+<textarea name="Informacion" rows="6" cols="40" size="100"></textarea>
+<br>
+Meritos<input type="file" name="fichero">
+<br>
+<input type="submit" name="enviar" value="enviar">
+<input type="reset" name="borrar" value="borrar">
+</form>
+</fieldset>
+</html>
